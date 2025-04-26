@@ -1,0 +1,37 @@
+---
+title: "Hallmarks Analysis and Protein"
+author: "Wisam"
+date: "2025-04-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "/sfs/ceph/standard/BDShackathon")
+library(tidyverse)
+library(biomaRt)
+library(cluster)
+library(pheatmap)
+```
+
+```{r}
+expected_count_data = read.csv("teams/cherry_garcia/Wisam/cleaned_rna_expected_count.csv")
+gene_info = read.csv("teams/cherry_garcia/Wisam/gene_info.csv")
+
+protein_coding_genes = gene_info %>%
+  filter(gene_type == "protein_coding")
+
+
+protein_counts = expected_count_data %>%
+  filter(gene_id %in% protein_coding_genes$gene_id) %>%
+  left_join(protein_coding_genes, by = "gene_id") %>%
+  dplyr::select(-gene_type,-X.x) %>%
+  relocate(gene_symbol, .after = "gene_id") 
+
+```
+
+```{r}
+
+```
+
+

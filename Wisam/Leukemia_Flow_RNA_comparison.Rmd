@@ -305,6 +305,10 @@ pheatmap(flow_status_matrix,
          cluster_cols = TRUE,
          legend_breaks = c(-1, 0, 1),
          legend_labels = c("-1", "0", "1"),
-         main = "Patient Marker Clustergram")
+         main = "Patient Marker Clustergram filled in using RNA Expression Threshold")
+```
+
+```{r}
+
 ```
 

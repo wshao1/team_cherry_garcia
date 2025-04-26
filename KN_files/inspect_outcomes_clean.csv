@@ -1,0 +1,153 @@
+AvatarKey,AgeAtProgRecur,ProgRecurInd,RecurrenceType,RelapseStatus,DiseaseGroupBestResp,AMLResponse,CMLResponse,CLLResponse,AgeAtCurrentDiseaseStatus,CurrentDiseaseStatus
+A006690,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),61.838,Active Disease
+A006745,77.652,Progression,Unknown/Not Applicable,Unknown/Not Applicable,AML,Primary Induction Failure (PIF),Unknown/Not Applicable,Unknown/Not Applicable,77.737,Active Disease
+A006746,81.195,Progression,Unknown/Not Applicable,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,81.236,Active Disease
+A006747,39.775,Progression,Unknown/Not Applicable,Unknown/Not Applicable,AML,Primary Induction Failure (PIF),Unknown/Not Applicable,Unknown/Not Applicable,40.918,Active Disease
+A006748,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,59.077,No Evidence of Disease
+A008273,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,54.153,Active Disease
+A008274,34.923,Progression,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,35.901,Active Disease
+A008275,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,65.277,No Evidence of Disease
+A008277,63.038,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),69.340,Active Disease
+A008278,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,68.932,Active Disease
+A008279,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,62.175,No Evidence of Disease
+A008280,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Primary Induction Failure (PIF),Unknown/Not Applicable,Unknown/Not Applicable,42.644,Active Disease
+A008281,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,37.340,No Evidence of Disease
+A008282,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,65.362,No Evidence of Disease
+A008283,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,ALL,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,35.501,No Evidence of Disease
+A008286,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,70.077,No Evidence of Disease
+A008287,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),74.997,Active Disease
+A008288,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),71.696,Active Disease
+A008289,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),62.540,Active Disease
+A010844,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),78.732,Active Disease
+A010845,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),74.263,Active Disease
+A010848,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Lymphoma,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,81.093,Active Disease
+A010849,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,49.844,Active Disease
+A010849,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),55.986,Active Disease
+A010850,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Untreated,Unknown/Not Applicable,Unknown/Not Applicable,Age 90 or older,Active Disease
+A010853,86.030,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Progressive Disease (Prog/PD),86.047,Active Disease
+A010857,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Lymphoma,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,66.282,Active Disease
+A010858,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,57.690,Active Disease
+A010912,30.984,Recurrence,Local recurrence,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,31.249,Active Disease
+A028331,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,71.581,Active Disease
+A028332,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,30.425,Active Disease
+A028333,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),87.082,Active Disease
+A028334,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),86.726,Active Disease
+A028335,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),70.342,Active Disease
+A028337,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,71.879,No Evidence of Disease
+A028339,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,33.551,No Evidence of Disease
+A028340,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Complete Response/Remission (CR),45.948,No Evidence of Disease
+A029214,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),84.937,Active Disease
+A029215,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),41.477,Active Disease
+A029217,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),60.408,Active Disease
+A029218,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),73.011,Active Disease
+A029219,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),66.981,Active Disease
+A029220,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),75.027,Active Disease
+A029221,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),Age 90 or older,Active Disease
+A029222,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),65.499,Active Disease
+A029224,72.323,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CML,Unknown/Not Applicable,Chronic Phase,Unknown/Not Applicable,72.323,Active Disease
+A029224,71.666,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),72.323,Active Disease
+A029225,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Relapsed,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Progressive Disease (Prog/PD),70.189,Active Disease
+A029227,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),81.762,Active Disease
+A029228,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),72.074,Active Disease
+A029229,58.077,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Progressive Disease (Prog/PD),72.567,Active Disease
+A030204,58.016,Recurrence,Regional recurrence,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,62.266,No Evidence of Disease
+A030205,47.342,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),52.203,Active Disease
+A030206,61.937,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Progressive Disease (Prog/PD),78.014,Active Disease
+A030207,43.348,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Progressive Disease (Prog/PD),58.477,Active Disease
+A030210,75.304,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),79.625,Active Disease
+A030212,72.471,Recurrence,Regional recurrence,Unknown/Not Reported,ALL,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,74.885,Active Disease
+A030213,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),59.666,Active Disease
+A030214,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),68.200,Active Disease
+A030981,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,64.225,No Evidence of Disease
+A030982,74.995,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),77.548,Active Disease
+A030983,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,71.047,Active Disease
+A030984,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,MDS,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,68.937,Active Disease
+A030985,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,69.310,Active Disease
+A030986,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,76.027,Active Disease
+A030987,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,65.918,Active Disease
+A030988,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),64.290,Active Disease
+A030989,65.608,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),68.945,Active Disease
+A030990,51.137,Recurrence,Local recurrence,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,51.134,Active Disease
+A030991,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,70.345,Active Disease
+A030992,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,66.973,Active Disease
+A030993,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,84.381,Active Disease
+A030994,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,62.871,No Evidence of Disease
+A030995,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,45.271,Active Disease
+A030996,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Reported,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,76.142,Active Disease
+A030997,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),57.951,Active Disease
+A030999,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Reported,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,69.159,No Evidence of Disease
+A031000,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Reported,MDS,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,60.268,Active Disease
+A031000,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,60.268,Active Disease
+A032137,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),52.101,Active Disease
+A032139,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),79.027,Active Disease
+A032142,50.737,Recurrence,Local recurrence,Unknown/Not Applicable,CML,Unknown/Not Applicable,Relapse (REL),Unknown/Not Applicable,50.784,Active Disease
+A032143,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Progressive Disease (Prog/PD),65.868,Active Disease
+A032145,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),60.934,Active Disease
+A032147,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),59.975,Active Disease
+A032148,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Reported,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),61.904,Active Disease
+A032149,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,ALL,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,48.652,No Evidence of Disease
+A032154,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),73.386,Active Disease
+A033912,61.767,Recurrence,Regional recurrence,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,65.364,No Evidence of Disease
+A033913,64.195,Recurrence,Local recurrence,Unknown/Not Applicable,AML,Primary Induction Failure (PIF),Unknown/Not Applicable,Unknown/Not Applicable,64.392,Active Disease
+A033914,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,81.595,No Evidence of Disease
+A033915,24.953,Recurrence,Local recurrence,Unknown/Not Applicable,ALL,Primary Induction Failure (PIF),Unknown/Not Applicable,Unknown/Not Applicable,25.282,Active Disease
+A033916,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,72.847,Active Disease
+A033917,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Primary Induction Failure (PIF),Unknown/Not Applicable,Unknown/Not Applicable,72.326,Active Disease
+A033918,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Untreated,61.099,Active Disease
+A035447,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),73.030,Active Disease
+A039952,39.564,Progression,Unknown/Not Applicable,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,50.058,Active Disease
+A039953,50.781,Recurrence,Local recurrence,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,51.712,Active Disease
+A039956,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,ALL,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,64.488,No Evidence of Disease
+A039958,63.181,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Progressive Disease (Prog/PD),75.351,Active Disease
+A039959,66.222,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Progressive Disease (Prog/PD),74.058,Active Disease
+A039961,34.408,Progression,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,38.740,Active Disease
+A039962,67.540,Recurrence,Local recurrence,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,67.740,Active Disease
+A039966,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,66.951,Active Disease
+A039967,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,35.148,No Evidence of Disease
+A039968,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,ALL,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,57.756,No Evidence of Disease
+A039969,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Lymphoma,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,60.047,Active Disease
+A039969,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),60.047,Active Disease
+A039970,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,48.307,No Evidence of Disease
+A039971,69.630,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Progressive Disease (Prog/PD),71.753,Active Disease
+A039972,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),68.852,Active Disease
+A039973,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),69.600,Active Disease
+A039974,64.419,Recurrence,Local recurrence,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,64.797,Active Disease
+A039975,40.192,Progression,Unknown/Not Applicable,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,41.699,Active Disease
+A039976,20.337,Recurrence,Local recurrence,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,21.962,No Evidence of Disease
+A039977,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,56.860,No Evidence of Disease
+A039978,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,52.189,No Evidence of Disease
+A039980,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,40.003,Active Disease
+A039981,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,79.395,Active Disease
+A040093,64.808,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,Progressive Disease (Prog/PD),70.455,Active Disease
+A040095,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,37.430,No Evidence of Disease
+A040096,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CML,Unknown/Not Applicable,Chronic Phase,Unknown/Not Applicable,26.671,Active Disease
+A040098,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CML,Unknown/Not Applicable,Chronic Phase,Unknown/Not Applicable,72.112,Active Disease
+A040100,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,ALL,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,73.282,Active Disease
+A040104,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),87.542,Active Disease
+A040105,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,42.819,No Evidence of Disease
+A040106,30.392,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CML,Unknown/Not Applicable,Chronic Phase,Unknown/Not Applicable,37.238,Active Disease
+A040107,69.652,Recurrence,Local recurrence,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,69.863,Active Disease
+A040108,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CML,Unknown/Not Applicable,Chronic Phase,Unknown/Not Applicable,67.781,Active Disease
+A040109,56.504,Progression,Unknown/Not Applicable,Unknown/Not Applicable,CML,Unknown/Not Applicable,Chronic Phase,Unknown/Not Applicable,58.751,Active Disease
+A040111,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,75.447,No Evidence of Disease
+A040112,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),68.014,Active Disease
+A040113,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Untreated,Unknown/Not Applicable,Unknown/Not Applicable,77.778,Active Disease
+A040114,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response with Incomplete Hematologic Recovery (CRi),Unknown/Not Applicable,Unknown/Not Applicable,70.882,No Evidence of Disease
+A049227,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,MDS,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,78.233,No Evidence of Disease
+A049227,77.668,Recurrence,Local recurrence,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,78.233,Active Disease
+A049229,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,CLL,Unknown/Not Applicable,Unknown/Not Applicable,No Response (NR)/Stable Disease (SD),59.573,No Evidence of Disease
+A049229,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Primary refractory,AML,Not Assessed/Unknown,Unknown/Not Applicable,Unknown/Not Applicable,59.559,Active Disease
+A049231,39.019,Progression,Unknown/Not Applicable,Unknown/Not Applicable,ALL,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,42.258,No Evidence of Disease
+A049233,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,ALL,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,69.715,No Evidence of Disease
+A049236,77.726,Recurrence,Regional recurrence,Unknown/Not Applicable,ALL,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,78.529,Active Disease
+A049237,60.748,Recurrence,Disease has recurred but the type of recurrence is unknown,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,60.981,Active Disease
+A049239,54.885,Recurrence,Regional recurrence,Unknown/Not Applicable,ALL,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,55.690,Active Disease
+A049242,19.622,Recurrence,Local recurrence,Unknown/Not Applicable,ALL,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,21.441,No Evidence of Disease
+A049243,41.052,Recurrence,Regional recurrence,Unknown/Not Applicable,ALL,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,41.638,No Evidence of Disease
+A049244,59.471,Recurrence,Disease has recurred but the type of recurrence is unknown,Unknown/Not Applicable,ALL,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,59.526,Active Disease
+A049245,28.973,Recurrence,Local recurrence,Unknown/Not Applicable,ALL,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,29.364,Active Disease
+A049246,53.932,Recurrence,Local recurrence,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,54.227,Active Disease
+A049247,80.460,Recurrence,Disease has recurred but the type of recurrence is unknown,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,80.510,Active Disease
+A049248,73.595,Recurrence,Disease has recurred but the type of recurrence is unknown,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,74.389,No Evidence of Disease
+A049250,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,Unknown/Not Applicable,AML,Complete Response/Remission (CR),Unknown/Not Applicable,Unknown/Not Applicable,61.660,No Evidence of Disease
+A049252,57.910,Recurrence,Local recurrence,Unknown/Not Applicable,AML,Relapse (REL),Unknown/Not Applicable,Unknown/Not Applicable,58.019,Active Disease

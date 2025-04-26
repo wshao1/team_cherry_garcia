@@ -1,0 +1,145 @@
+AvatarKey,VitalStatus,AgeAtLastContact,AgeAtDeath,Age At Specimen Collection,duration,event_observed,Histology
+A006690,Alive,66.71,,59.67,7.039999999999992,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A006745,Dead,77.901,77.901,76.87,1.0309999999999917,1,Acute myelomonocytic leukemia
+A006746,Dead,81.274,81.274,79.9,1.3739999999999952,1,Acute myeloid leukemia
+A006747,Dead,40.981,40.981,40.38,0.6009999999999991,1,Acute myeloid leukemia
+A006748,Alive,59.115,,52.59,6.524999999999999,0,Acute myeloid leukemia
+A008273,Dead,54.189,54.189,54.14,0.04899999999999949,1,Acute myeloid leukemia
+A008274,Dead,36.362,36.362,35.7,0.661999999999999,1,Acute myeloid leukemia
+A008275,Dead,65.844,65.844,59.46,6.383999999999993,1,Acute myeloid leukemia
+A008277,Alive,69.34,,63.7,5.640000000000001,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A008278,Dead,68.932,68.932,68.02,0.9120000000000061,1,Acute myeloid leukemia
+A008279,Alive,62.175,,56.83,5.344999999999999,0,Acute myeloid leukemia
+A008280,Dead,42.644,42.644,42.15,0.4939999999999998,1,Acute myeloid leukemia
+A008281,Alive,37.34,,31.59,5.7500000000000036,0,Precursor cell lymphoblastic leukemia
+A008282,Alive,65.362,,59.99,5.371999999999993,0,Acute myeloid leukemia
+A008283,Alive,35.501,,31.93,3.570999999999998,0,Precursor cell lymphoblastic leukemia
+A008286,Dead,70.118,70.118,67.04,3.0779999999999887,1,Acute myeloid leukemia
+A008287,Alive,75.0,,69.55,5.450000000000003,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A008288,Alive,71.767,,66.36,5.4069999999999965,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A008289,Alive,62.54,,56.98,5.560000000000002,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A010844,Alive,78.83,,72.96,5.8700000000000045,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A010845,Dead,75.436,75.436,67.78,7.656000000000006,1,Chronic myeloid leukemia
+A010848,Alive,81.093,,74.86,6.233000000000004,0,T-cell large granular lymphocytic leukemia
+A010849,Alive,55.986,,49.84,6.145999999999994,0,T-cell large granular lymphocytic leukemia
+A010853,Dead,86.241,86.241,86.03,0.21099999999999852,1,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A010857,Alive,66.282,,61.98,4.302,0,T-cell large granular lymphocytic leukemia
+A010858,Dead,57.759,57.759,53.14,4.619,1,T-cell large granular lymphocytic leukemia
+A010912,Dead,31.252,31.252,30.62,0.6319999999999979,1,Acute myeloid leukemia
+A028331,Dead,71.6,71.6,71.04,0.5599999999999881,1,Acute myeloid leukemia
+A028332,Dead,30.425,30.425,27.57,2.8550000000000004,1,Acute myelomonocytic leukemia
+A028333,Alive,87.082,,83.13,3.951999999999998,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A028334,Dead,86.77,86.77,84.48,2.289999999999992,1,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A028335,Alive,70.342,,65.62,4.721999999999994,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A028337,Alive,71.879,,67.3,4.579000000000008,0,Acute myeloid leukemia
+A028339,Alive,33.551,,29.21,4.341000000000001,0,Acute myeloid leukemia
+A028340,Alive,45.948,,41.58,4.368000000000002,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A029214,Alive,84.937,,79.72,5.216999999999999,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A029215,Alive,41.575,,36.68,4.895000000000003,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A029217,Alive,60.408,,55.6,4.808,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A029218,Alive,73.011,,68.02,4.991,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A029219,Alive,66.981,,62.22,4.760999999999996,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A029220,Alive,75.027,,71.75,3.277000000000001,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A029222,Alive,65.644,,60.59,5.054000000000002,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A029224,Dead,72.94,72.94,67.73,5.209999999999994,1,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A029225,Alive,70.189,,66.68,3.508999999999986,0,Other
+A029227,Alive,81.762,,79.56,2.201999999999998,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A029228,Alive,72.074,,67.42,4.653999999999996,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A029229,Alive,72.567,,68.67,3.8969999999999914,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A030204,Alive,62.384,,56.85,5.533999999999999,0,Acute myeloid leukemia
+A030205,Dead,53.712,53.712,47.34,6.372,1,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A030206,Alive,78.014,,73.79,4.2239999999999895,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A030207,Alive,58.477,,58.23,0.2469999999999999,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A030210,Alive,79.625,,75.27,4.355000000000004,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A030212,Alive,74.885,,71.7,3.1850000000000023,0,B lymphoblastic leukemia/lymphoma
+A030213,Dead,59.666,59.666,59.37,0.2959999999999994,1,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A030214,Alive,68.2,,68.2,0.0,0,T-cell large granular lymphocytic leukemia
+A030981,Dead,64.252,64.252,64.22,0.031999999999996476,1,Acute myeloid leukemia
+A030982,Alive,77.548,,72.1,5.4480000000000075,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A030983,Dead,71.096,71.096,70.44,0.6560000000000059,1,Acute myeloid leukemia
+A030984,Dead,68.937,68.937,68.57,0.36700000000000443,1,Other
+A030985,Dead,69.31,69.31,69.27,0.04000000000000625,1,Acute myeloid leukemia
+A030986,Dead,76.027,76.027,75.9,0.12699999999999534,1,Acute myeloid leukemia
+A030987,Dead,65.932,65.932,65.6,0.33200000000000784,1,Acute myeloid leukemia
+A030988,Alive,64.29,,63.33,0.960000000000008,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A030989,Alive,68.945,,64.72,4.224999999999994,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A030990,Dead,51.205,51.205,51.15,0.054999999999999716,1,Acute myeloid leukemia
+A030991,Dead,70.411,70.411,70.24,0.17100000000000648,1,Acute myeloid leukemia
+A030992,Dead,66.973,66.973,66.7,0.27299999999999613,1,Acute myeloid leukemia
+A030993,Dead,84.386,84.386,84.29,0.09599999999998943,1,Acute myeloid leukemia
+A030994,Alive,62.877,,61.6,1.277000000000001,0,Acute myeloid leukemia
+A030995,Dead,45.375,45.375,44.67,0.7049999999999983,1,Acute myeloid leukemia
+A030996,Dead,76.225,76.225,75.73,0.49499999999999034,1,Acute myeloid leukemia
+A030997,Alive,57.951,,53.75,4.2010000000000005,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A030999,Alive,69.159,,65.0,4.159000000000006,0,Acute myeloid leukemia
+A031000,Dead,60.279,60.279,59.24,1.0390000000000015,1,Acute myeloid leukemia
+A032137,Dead,52.773,52.773,50.16,2.6130000000000067,1,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A032139,Alive,79.027,,73.18,5.846999999999994,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A032142,Dead,50.784,50.784,49.65,1.1340000000000003,1,Chronic myeloid leukemia
+A032143,Alive,65.868,,61.85,4.017999999999994,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A032145,Alive,60.934,,56.31,4.623999999999995,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A032147,Alive,59.975,,55.02,4.954999999999998,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A032148,Alive,61.904,,57.19,4.714000000000006,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A032149,Alive,48.652,,44.12,4.532000000000004,0,B lymphoblastic leukemia/lymphoma
+A032154,Alive,73.386,,69.05,4.3359999999999985,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A033912,Alive,65.375,,61.87,3.5050000000000026,0,Acute myeloid leukemia
+A033913,Dead,64.392,64.392,63.83,0.5619999999999976,1,Acute myeloid leukemia
+A033914,Dead,81.595,81.595,80.81,0.7849999999999966,1,Acute myeloid leukemia
+A033915,Dead,25.282,25.282,24.79,0.4920000000000009,1,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A033916,Dead,72.885,72.885,72.79,0.09499999999999886,1,Acute myeloid leukemia
+A033917,Dead,72.392,72.392,71.66,0.7319999999999993,1,Acute myeloid leukemia
+A033918,Dead,61.318,61.318,61.1,0.21799999999999642,1,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A035447,Dead,73.381,73.381,68.87,4.510999999999996,1,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A039952,Dead,50.068,50.068,49.42,0.6479999999999961,1,Other
+A039953,Dead,51.77,51.77,51.68,0.09000000000000341,1,Acute myeloid leukemia
+A039956,Dead,64.608,64.608,60.55,4.058000000000007,1,B lymphoblastic leukemia/lymphoma
+A039958,Alive,75.351,,73.23,2.120999999999995,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A039959,Alive,74.058,,71.91,2.1480000000000103,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A039961,Alive,38.74,,35.23,3.510000000000005,0,T-cell large granular lymphocytic leukemia
+A039962,Dead,67.748,67.748,67.54,0.2079999999999984,1,Acute myeloid leukemia
+A039966,Alive,66.951,,66.43,0.5209999999999866,0,Acute myeloid leukemia
+A039967,Alive,35.148,,33.19,1.9580000000000055,0,Acute promyelocytic leukemia
+A039968,Alive,57.778,,54.7,3.077999999999996,0,B lymphoblastic leukemia/lymphoma
+A039969,Alive,60.162,,58.15,2.0120000000000005,0,Other
+A039970,Dead,48.455,48.455,47.93,0.5249999999999986,1,Acute myeloid leukemia
+A039971,Alive,72.211,,69.66,2.551000000000002,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A039972,Alive,68.852,,66.79,2.0619999999999976,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A039973,Alive,69.704,,67.63,2.073999999999998,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A039974,Dead,64.852,64.852,63.45,1.402000000000001,1,Acute myeloid leukemia
+A039975,Dead,41.71,41.71,41.22,0.490000000000002,1,Acute myeloid leukemia
+A039976,Dead,22.167,22.167,20.34,1.8270000000000017,1,Acute myeloid leukemia
+A039977,Alive,56.86,,55.3,1.5600000000000023,0,Acute myeloid leukemia
+A039978,Alive,52.189,,50.61,1.5790000000000006,0,Acute myeloid leukemia
+A039980,Alive,40.003,,39.42,0.5829999999999984,0,Acute promyelocytic leukemia
+A039981,Dead,79.471,79.471,79.32,0.15100000000001046,1,Acute myeloid leukemia
+A040093,Alive,70.562,,65.38,5.182000000000002,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A040095,Alive,37.43,,32.26,5.170000000000002,0,Acute myeloid leukemia
+A040096,Alive,26.671,,21.85,4.820999999999998,0,Chronic myeloid leukemia
+A040098,Alive,72.112,,67.82,4.292000000000002,0,Chronic myeloid leukemia
+A040100,Dead,73.356,73.356,73.27,0.08599999999999852,1,B lymphoblastic leukemia/lymphoma
+A040104,Alive,87.668,,85.16,2.5080000000000098,0,Chronic lymphocytic leukemia/small lymphocytic lymphoma
+A040105,Alive,42.819,,40.05,2.7690000000000055,0,Acute myeloid leukemia
+A040106,Alive,37.238,,35.13,2.107999999999997,0,Chronic myeloid leukemia
+A040107,Dead,69.863,69.863,69.57,0.29300000000000637,1,Acute myeloid leukemia
+A040108,Alive,67.781,,65.59,2.1910000000000025,0,Chronic myeloid leukemia
+A040109,Alive,58.751,,56.56,2.1909999999999954,0,Chronic myeloid leukemia
+A040111,Dead,75.46,75.46,74.19,1.269999999999996,1,Other
+A040112,Dead,68.058,68.058,67.52,0.5380000000000109,1,Other
+A040113,Dead,77.822,77.822,77.67,0.15200000000000102,1,Acute myeloid leukemia
+A040114,Dead,70.942,70.942,70.1,0.8419999999999987,1,Acute myeloid leukemia
+A049227,Dead,78.299,78.299,76.9,1.399000000000001,1,Acute myeloid leukemia
+A049229,Dead,59.603,59.603,58.62,0.9830000000000041,1,Acute myeloid leukemia
+A049231,Alive,42.258,,38.13,4.128,0,Other
+A049233,Alive,69.715,,66.25,3.4650000000000034,0,Acute promyelocytic leukemia
+A049236,Dead,78.529,78.529,76.96,1.5690000000000026,1,B lymphoblastic leukemia/lymphoma
+A049237,Dead,60.981,60.981,60.72,0.2610000000000028,1,Acute myeloid leukemia
+A049239,Dead,55.69,55.69,55.61,0.0799999999999983,1,B lymphoblastic leukemia/lymphoma
+A049242,Alive,21.441,,19.3,2.1409999999999982,0,B lymphoblastic leukemia/lymphoma
+A049243,Alive,41.658,,39.8,1.858000000000004,0,Acute myeloid leukemia
+A049244,Dead,59.526,59.526,58.41,1.1160000000000068,1,B lymphoblastic leukemia/lymphoma
+A049245,Dead,29.364,29.364,27.81,1.554000000000002,1,Acute myeloid leukemia
+A049246,Alive,54.244,,52.77,1.4739999999999966,0,Acute myeloid leukemia
+A049247,Dead,80.51,80.51,79.93,0.5799999999999983,1,Acute myeloid leukemia
+A049248,Alive,74.389,,73.08,1.3089999999999975,0,Acute myeloid leukemia
+A049250,Alive,61.66,,60.46,1.1999999999999957,0,Acute myeloid leukemia
+A049252,Dead,58.099,58.099,57.0,1.0989999999999966,1,Acute myeloid leukemia
