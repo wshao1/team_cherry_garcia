@@ -1,0 +1,147 @@
+,Unnamed: 0,AvatarKey,AgeAtFirstContact,AgeAtDiagnosis,HistologyCode,Histology,CurrentlySeenForPrimaryOrRecurr
+0,0,A006690,59.556,50.512,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Progressive Disease
+1,1,A006745,76.866,76.855,9867/3,Acute myelomonocytic leukemia,Primary Diagnosis
+2,2,A006746,79.899,79.899,9895/3,Acute myeloid leukemia,Primary Diagnosis
+3,3,A006747,39.871,38.753,9861/3,Acute myeloid leukemia,Progressive Disease
+4,4,A006748,52.581,52.581,9861/3,Acute myeloid leukemia,Primary Diagnosis
+5,5,A008273,53.279,53.279,9861/3,Acute myeloid leukemia,Primary Diagnosis
+6,6,A008274,34.748,34.748,9861/3,Acute myeloid leukemia,Primary Diagnosis
+7,7,A008275,59.458,59.458,9861/3,Acute myeloid leukemia,Primary Diagnosis
+8,8,A008277,58.156,58.156,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+9,9,A008278,68.016,68.016,9861/3,Acute myeloid leukemia,Primary Diagnosis
+10,10,A008279,56.830,56.830,9861/3,Acute myeloid leukemia,Unknown/Not Applicable
+11,11,A008280,42.153,42.153,9861/3,Acute myeloid leukemia,Primary Diagnosis
+12,12,A008281,31.589,31.589,9835/3,Precursor cell lymphoblastic leukemia,Primary Diagnosis
+13,13,A008282,59.984,59.984,9861/3,Acute myeloid leukemia,Primary Diagnosis
+14,14,A008283,31.932,31.932,9835/3,Precursor cell lymphoblastic leukemia,Primary Diagnosis
+15,15,A008286,67.030,67.036,9861/3,Acute myeloid leukemia,Primary Diagnosis
+16,16,A008287,66.868,66.847,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+17,17,A008288,65.482,65.367,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Progressive Disease
+18,18,A008289,55.967,52.737,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Progressive Disease
+19,19,A010844,66.364,53.668,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Progressive Disease
+20,20,A010845,67.784,67.784,9863/3,Chronic myeloid leukemia,Primary Diagnosis
+21,21,A010848,74.477,73.926,9831/3,T-cell large granular lymphocytic leukemia,Primary Diagnosis
+22,22,A010849,48.910,48.910,9831/3,T-cell large granular lymphocytic leukemia,Primary Diagnosis
+23,23,A010850,Age 90 or older,Age 90 or older,9895/3,Acute myeloid leukemia,Primary Diagnosis
+24,24,A010853,86.030,78.896,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Recurrence
+25,25,A010857,61.616,61.518,9831/3,T-cell large granular lymphocytic leukemia,Primary Diagnosis
+26,26,A010858,51.123,40.688,9831/3,T-cell large granular lymphocytic leukemia,Progressive Disease
+27,27,A010912,30.614,30.614,9861/3,Acute myeloid leukemia,Primary Diagnosis
+28,28,A028331,69.981,69.981,9873/3,Acute myeloid leukemia,Primary Diagnosis
+29,29,A028332,27.567,27.567,9867/3,Acute myelomonocytic leukemia,Primary Diagnosis
+30,30,A028333,80.622,73.562,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+31,31,A028334,79.318,79.318,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+32,32,A028335,51.932,51.181,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Progressive Disease
+33,33,A028337,67.296,67.296,9871/3,Acute myeloid leukemia,Primary Diagnosis
+34,34,A028339,29.208,29.208,9861/3,Acute myeloid leukemia,Primary Diagnosis
+35,35,A028340,39.647,36.460,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+36,36,A029214,78.827,78.540,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+37,37,A029215,34.173,34.173,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+38,38,A029217,53.027,53.027,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+39,39,A029218,58.244,58.244,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+40,40,A029219,60.134,58.827,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+41,41,A029220,69.230,69.230,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+42,42,A029221,82.173,62.219,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+43,43,A029222,49.068,49.068,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+44,44,A029224,57.441,57.441,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+45,45,A029225,63.326,63.326,"9823/3, 9673/3",Other,Primary Diagnosis
+46,46,A029227,74.732,74.732,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+47,47,A029228,64.800,64.800,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+48,48,A029229,60.559,46.068,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Progressive Disease
+49,49,A030204,56.858,56.858,9861/3,Acute myeloid leukemia,Primary Diagnosis
+50,50,A030205,45.427,45.427,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+51,51,A030206,66.605,56.600,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Progressive Disease
+52,52,A030207,43.310,38.173,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Progressive Disease
+53,53,A030210,75.148,59.562,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Progressive Disease
+54,54,A030212,71.704,71.704,9811/3,B lymphoblastic leukemia/lymphoma,Primary Diagnosis
+55,55,A030213,59.367,59.367,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+56,56,A030214,67.068,66.975,9831/3,T-cell large granular lymphocytic leukemia,Primary Diagnosis
+57,57,A030981,62.096,62.096,9861/3,Acute myeloid leukemia,Primary Diagnosis
+58,58,A030982,64.490,64.490,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+59,59,A030983,70.444,70.444,9861/3,Acute myeloid leukemia,Primary Diagnosis
+60,60,A030985,68.449,68.449,9861/3,Acute myeloid leukemia,Primary Diagnosis
+61,61,A030986,75.896,75.896,9861/3,Acute myeloid leukemia,Primary Diagnosis
+62,62,A030987,65.595,65.595,9861/3,Acute myeloid leukemia,Primary Diagnosis
+63,63,A030988,57.770,55.159,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+64,64,A030989,63.441,63.441,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+65,65,A030990,50.441,50.441,9861/3,Acute myeloid leukemia,Primary Diagnosis
+66,66,A030991,70.249,70.249,9861/3,Acute myeloid leukemia,Primary Diagnosis
+67,67,A030992,66.699,66.699,9861/3,Acute myeloid leukemia,Primary Diagnosis
+68,68,A030993,84.285,84.285,9861/3,Acute myeloid leukemia,Primary Diagnosis
+69,69,A030994,61.600,61.600,9861/3,Acute myeloid leukemia,Primary Diagnosis
+70,70,A030995,44.671,44.671,9861/3,Acute myeloid leukemia,Primary Diagnosis
+71,71,A030996,75.721,75.721,9861/3,Acute myeloid leukemia,Primary Diagnosis
+72,72,A030997,53.745,53.485,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+73,73,A030999,64.986,64.986,9861/3,Acute myeloid leukemia,Primary Diagnosis
+74,74,A031000,59.197,59.197,9861/3,Acute myeloid leukemia,Primary Diagnosis
+75,75,A032137,49.049,49.049,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+76,76,A032139,73.066,71.203,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+77,77,A032142,49.647,49.647,9863/3,Chronic myeloid leukemia,Primary Diagnosis
+78,78,A032143,56.953,56.953,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+79,79,A032145,55.967,55.967,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+80,80,A032147,54.049,53.841,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+81,81,A032148,57.186,57.186,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+82,82,A032149,44.107,44.107,9811/3,B lymphoblastic leukemia/lymphoma,Primary Diagnosis
+83,83,A032154,69.044,63.079,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+84,84,A033912,60.685,60.685,9861/3,Acute myeloid leukemia,Primary Diagnosis
+85,85,A033913,63.833,63.833,9861/3,Acute myeloid leukemia,Primary Diagnosis
+86,86,A033914,80.797,80.797,9861/3,Acute myeloid leukemia,Primary Diagnosis
+87,87,A033915,24.784,24.784,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+88,88,A033916,72.786,72.786,9861/3,Acute myeloid leukemia,Primary Diagnosis
+89,89,A033917,71.655,71.655,9861/3,Acute myeloid leukemia,Primary Diagnosis
+90,90,A033918,61.099,61.099,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+91,91,A035447,63.578,63.578,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+92,92,A039952,32.523,32.523,9840/3,Other,Primary Diagnosis
+93,93,A039953,50.332,50.332,9861/3,Acute myeloid leukemia,Primary Diagnosis
+94,94,A039956,59.893,59.893,9811/3,B lymphoblastic leukemia/lymphoma,Primary Diagnosis
+95,95,A039958,60.671,60.573,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+96,96,A039959,60.573,60.573,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+97,97,A039961,34.058,32.762,9831/3,T-cell large granular lymphocytic leukemia,Recurrence
+98,98,A039962,67.452,66.953,9895/3,Acute myeloid leukemia,Primary Diagnosis
+99,99,A039966,66.430,66.430,9861/3,Acute myeloid leukemia,Primary Diagnosis
+100,100,A039967,33.192,33.192,9866/3,Acute promyelocytic leukemia,Primary Diagnosis
+101,101,A039968,54.696,54.696,9811/3,B lymphoblastic leukemia/lymphoma,Primary Diagnosis
+102,102,A039969,58.156,58.156,"9823/3, 9680/3",Other,Primary Diagnosis
+103,103,A039970,47.926,47.926,9861/3,Acute myeloid leukemia,Primary Diagnosis
+104,104,A039971,69.652,66.378,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Progressive Disease
+105,105,A039972,66.186,66.186,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+106,106,A039973,67.668,67.668,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+107,107,A039974,63.455,63.455,9861/3,Acute myeloid leukemia,Primary Diagnosis
+108,108,A039975,40.203,39.627,9861/3,Acute myeloid leukemia,Progressive Disease
+109,109,A039976,18.384,18.384,9861/3,Acute myeloid leukemia,Primary Diagnosis
+110,110,A039977,55.296,55.296,9861/3,Acute myeloid leukemia,Primary Diagnosis
+111,111,A039978,50.605,50.605,9861/3,Acute myeloid leukemia,Primary Diagnosis
+112,112,A039980,39.422,39.422,9866/3,Acute promyelocytic leukemia,Primary Diagnosis
+113,113,A039981,79.318,79.318,9861/3,Acute myeloid leukemia,Primary Diagnosis
+114,114,A040093,64.852,57.507,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+115,115,A040095,32.263,32.263,9861/3,Acute myeloid leukemia,Primary Diagnosis
+116,116,A040096,21.597,21.597,9863/3,Chronic myeloid leukemia,Primary Diagnosis
+117,117,A040098,67.816,67.816,9875/3,Chronic myeloid leukemia,Primary Diagnosis
+118,118,A040100,73.266,73.266,9811/3,B lymphoblastic leukemia/lymphoma,Primary Diagnosis
+119,119,A040104,83.241,82.953,9823/3,Chronic lymphocytic leukemia/small lymphocytic lymphoma,Primary Diagnosis
+120,120,A040105,40.052,40.052,9861/3,Acute myeloid leukemia,Primary Diagnosis
+121,121,A040106,34.342,28.608,9863/3,Chronic myeloid leukemia,Progressive Disease
+122,122,A040107,69.195,69.195,9861/3,Acute myeloid leukemia,Primary Diagnosis
+123,123,A040108,65.589,65.589,9875/3,Chronic myeloid leukemia,Primary Diagnosis
+124,124,A040109,56.564,49.099,9863/3,Chronic myeloid leukemia,Progressive Disease
+125,125,A040111,74.186,74.186,9920/3,Other,Primary Diagnosis
+126,126,A040112,67.518,67.518,9834/3,Other,Primary Diagnosis
+127,127,A040113,77.674,77.674,9861/3,Acute myeloid leukemia,Primary Diagnosis
+128,128,A040114,70.096,70.096,9861/3,Acute myeloid leukemia,Primary Diagnosis
+129,129,A049227,76.795,76.795,9861/3,Acute myeloid leukemia,Primary Diagnosis
+130,130,A049229,58.622,58.622,9861/3,Acute myeloid leukemia,Primary Diagnosis
+131,131,A049231,38.123,38.123,9837/3,Other,Primary Diagnosis
+132,132,A049233,66.233,66.233,9866/3,Acute promyelocytic leukemia,Primary Diagnosis
+133,133,A049236,76.964,76.964,9811/3,B lymphoblastic leukemia/lymphoma,Primary Diagnosis
+134,134,A049237,60.093,60.093,9861/3,Acute myeloid leukemia,Primary Diagnosis
+135,135,A049239,54.471,54.373,9811/3,B lymphoblastic leukemia/lymphoma,Primary Diagnosis
+136,136,A049242,19.282,19.282,9811/3,B lymphoblastic leukemia/lymphoma,Primary Diagnosis
+137,137,A049243,39.792,39.792,9861/3,Acute myeloid leukemia,Primary Diagnosis
+138,138,A049244,58.405,58.392,9811/3,B lymphoblastic leukemia/lymphoma,Primary Diagnosis
+139,139,A049245,27.792,27.792,9861/3,Acute myeloid leukemia,Primary Diagnosis
+140,140,A049246,52.767,52.767,9861/3,Acute myeloid leukemia,Primary Diagnosis
+141,141,A049247,79.921,79.921,9861/3,Acute myeloid leukemia,Primary Diagnosis
+142,142,A049248,73.082,73.082,9861/3,Acute myeloid leukemia,Primary Diagnosis
+143,143,A049250,60.463,60.463,9861/3,Acute myeloid leukemia,Primary Diagnosis
+144,144,A049252,56.995,56.995,9861/3,Acute myeloid leukemia,Primary Diagnosis
+145,145,A030984,68.482,68.482,9985/3,Other,Primary Diagnosis

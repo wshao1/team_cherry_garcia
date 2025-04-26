@@ -1,0 +1,144 @@
+---
+title: "Leukemia"
+author: "Wisam"
+date: "2025-04-25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+knitr::opts_knit$set(root.dir = "/sfs/ceph/standard/BDShackathon")
+```
+
+```{r}
+test2 = read.table("/sfs/ceph/standard/BDShackathon/data/leukemia/molecular/rnaseq/genes/FT-SA158752R.genes.results", header = TRUE)
+```
+
+```{r}
+test = test2 %>% 
+  dplyr::select(gene_symbol,expected_count)
+```
+
+```{r}
+#Initialize data frame
+
+# Step 1: List all files in directory
+files <- list.files(path = "data/leukemia/molecular/rnaseq/genes", pattern = "\\.genes\\.results$", full.names = TRUE)
+
+# Step 2: Read each file, select gene name + expected_count, and rename expected_count to sample ID
+read_expected_count <- function(file) {
+  sample_id <- tools::file_path_sans_ext(basename(file))  # Extract file name without extension
+  df <- read_tsv(file, show_col_types = FALSE) %>%
+    dplyr::select(gene_id = gene_id, !!sample_id := expected_count)
+  return(df)
+}
+
+# Step 3: Load and merge all by gene
+merged_expected_count <- reduce(lapply(files, read_expected_count), full_join, by = "gene_id")
+```
+
+```{r}
+# Step 4 (optional): Remove genes with all NAs
+merged_expected_count_nonan <- merged_expected_count %>% filter(rowSums(is.na(.)) < ncol(.) - 1)
+
+
+merged_expected_count <- merged_expected_count %>%
+  dplyr::select(gene_id, where(~ !all(is.na(.))))
+```
+
+
+```{r}
+merged_expected_count_count_nan <- merged_expected_count %>%
+  mutate(na_count = rowSums(is.na(dplyr::select(., -gene_id))))
+```
+
+```{r}
+ggplot(merged_expected_count_count_nan, aes(x = na_count)) +
+  geom_histogram(binwidth = 1, fill = "steelblue", color = "white") +
+  labs(
+    title = "Number of NA expected_counts per Gene",
+    x = "Number of Patients with NA",
+    y = "Number of Genes"
+  ) +
+  theme_minimal()
+
+
+```
+```{r}
+filtered_expected_count <- merged_expected_count_count_nan %>%
+  filter(na_count <= 100) %>%
+  dplyr::select(-na_count)  # Optional: remove the helper column
+```
+
+
+
+```{r}
+# Convert to matrix and transpose (patients = rows)
+expr_matrix <- filtered_expected_count %>%
+  column_to_rownames("gene_id") %>%
+  as.matrix()
+
+expr_matrix_t <- t(expr_matrix)
+
+# Replace NA values (e.g., with 0 or mean imputation)
+expr_matrix_t[is.na(expr_matrix_t)] <- 0
+
+expr_matrix_t <- expr_matrix_t[, apply(expr_matrix_t, 2, var, na.rm = TRUE) > 0]
+pca_result <- prcomp(expr_matrix_t, scale. = TRUE)
+
+# Create a data frame of the top 2 principal components
+pca_df <- as.data.frame(pca_result$x[, 1:2])
+pca_df$patient_id <- rownames(pca_df)
+
+# Plot using ggplot2
+library(ggplot2)
+
+ggplot(pca_df, aes(x = PC1, y = PC2)) +
+  geom_point(color = "steelblue", size = 2) +
+  labs(title = "PCA of Patients by Gene Expression",
+       x = paste0("PC1 (", round(100 * summary(pca_result)$importance[2, 1], 1), "%)"),
+       y = paste0("PC2 (", round(100 * summary(pca_result)$importance[2, 2], 1), "%)")) +
+  theme_minimal()
+```
+
+
+
+```{r}
+patient_meta = read.csv("data/leukemia/leukemia_ids.csv", header = TRUE)
+
+#Clean up colnames to match patient_meta
+colnames(filtered_expected_count) <- sub("\\.genes$", "", colnames(filtered_expected_count))
+colnames(filtered_expected_count) <- gsub("-", ".", colnames(filtered_expected_count))
+
+#\
+rename_map <- setNames(patient_meta$ORIENAvatarKey, patient_meta$RNASeq)
+
+
+filtered_expected_count <- filtered_expected_count %>%
+  rename_with(~ recode(., !!!rename_map))
+```
+
+
+```{r}
+write.csv(filtered_expected_count, "teams/cherry_garcia/Wisam/cleaned_rna_expected_count.csv")
+```
+
+```{r}
+cleaned_expected_count = filtered_expected_count %>%
+  mutate(gene_id_truncated = str_remove(gene_id, "\\..*"))
+
+gene_info = test2 %>% dplyr::select(gene_id, gene_type, gene_symbol)
+
+protein_coding_gene_ids = subset(gene_info, gene_type == "protein_coding")
+
+protein_expected_count = filtered_expected_count %>% 
+  subset(gene_id %in% protein_coding_gene_ids$gene_id)
+
+write.csv(gene_info, "teams/cherry_garcia/Wisam/gene_info.csv")
+
+```
+
+
+
+

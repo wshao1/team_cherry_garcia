@@ -1,0 +1,102 @@
+,AvatarKey,Histology/Behavior,% Tumor Content,Age At Specimen Collection,SmokingStatus,AlcoholUse,AnemiaDiagnosisInd,COPDDiagnosisInd,CVAStrokeDiagnosisInd,DVTDiagnosisInd,GerdDiagnosisInd,HypercholesterolemiaDiagnosisInd,HyperlipidemiaDiagnosisInd,HypertensionDiagnosisInd,HypothyroidismDiagnosisInd,InsulinDependentDiabetesMellitusDiagnosisInd,HeartDiseaseDiagnosisInd,OsteoarthritisDiagnosisInd,PainDiagnosisInd,PulmonaryEmbolismDiagnosisInd,NoDrugToxicityInd,Sex,Race,Ethnicity,SCTInd,3_year_survival
+0,A039956,"98113 B lymphoblastic leukemia/lymphoma, NOS",88,60.550,Never,Never,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,Yes,Dead
+1,A049227,"98613 Acute myeloid leukemia, NOS",40,76.900,Former/Ever,Former/Ever,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+2,A040107,"98613 Acute myeloid leukemia, NOS",37,69.570,Never,Former/Ever,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+3,A028331,"98613 Acute myeloid leukemia, NOS",44,71.040,Never,Never,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+4,A040095,"98613 Acute myeloid leukemia, NOS",67,32.260,Never,Never,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+5,A029218,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,98,68.020,Never,Never,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+6,A029229,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,62,68.670,Former/Ever,Current,No,No,No,Yes,No,Yes,Yes,No,Yes,No,No,No,Yes,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+7,A030204,"98613 Acute myeloid leukemia, NOS",39,56.850,Never,Never,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,Yes,Alive
+8,A030206,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,96,73.790,Former/Ever,Current,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+9,A010849,98313 T-cell large granular lymphocytic leukemia,70,49.840,Former/Ever,Never,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+10,A010857,98313 T-cell large granular lymphocytic leukemia,67,61.980,Former/Ever,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+11,A032145,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,85,56.310,Never,Never,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+12,A032148,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,79,57.190,Former/Ever,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+13,A032149,"98113 B lymphoblastic leukemia/lymphoma, NOS",100,44.120,Former/Ever,Never,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,Black or African American,Non-Spanish; Non-Hispanic,Yes,Alive
+14,A029217,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,63,55.600,Former/Ever,Current,No,No,No,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+15,A029219,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,94,62.220,Never,Current,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+16,A029220,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,52,71.750,Former/Ever,Current,No,No,No,No,No,No,Yes,No,No,Yes,No,Yes,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+17,A029222,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,86,60.590,Never,Current,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+18,A049231,98373 T lymphoblastic leukemia/lymphoma,41,38.130,Current,Former/Ever,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+19,A049237,"98613 Acute myeloid leukemia, NOS",85,60.720,Former/Ever,Never,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+20,A031000,"98613 Acute myeloid leukemia, NOS",21,59.240,Former/Ever,Never,No,No,No,No,No,No,Yes,No,No,Yes,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+21,A028340,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,82,41.580,Former/Ever,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,Yes,Alive
+22,A028332,"98613 Acute myeloid leukemia, NOS",75,27.570,Never,Never,Yes,No,No,No,Yes,No,No,Yes,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,Yes,Dead
+23,A008288,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,90,66.360,Former/Ever,Never,No,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+24,A030999,"98613 Acute myeloid leukemia, NOS",52,65.000,Former/Ever,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,Yes,Alive
+25,A028339,"98613 Acute myeloid leukemia, NOS",36,29.210,Never,Never,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+26,A049233,"98663 Acute promyelocytic leukemia, t(15;17)(q22;q11-12)",30,66.250,Former/Ever,Current,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+27,A049236,"98113 B lymphoblastic leukemia/lymphoma, NOS",29,76.960,Never,Never,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+28,A033912,"98613 Acute myeloid leukemia, NOS",16,61.870,Former/Ever,Former/Ever,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,Black or African American,Non-Spanish; Non-Hispanic,Yes,Alive
+29,A010848,98313 T-cell large granular lymphocytic leukemia,84,74.860,Never,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+30,A049239,"98113 B lymphoblastic leukemia/lymphoma, NOS",67,55.610,Never,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+31,A006748,"98613 Acute myeloid leukemia, NOS",72,52.590,Former/Ever,Never,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,Yes,Alive
+32,A029228,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,91,67.420,Never,Current,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+33,A029225,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,85,66.680,Former/Ever,Current,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+34,A033913,"98613 Acute myeloid leukemia, NOS",42,63.830,Former/Ever,Never,Yes,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+35,A033918,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,91,61.100,Never,Never,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+36,A033916,"98613 Acute myeloid leukemia, NOS",95,72.790,Former/Ever,Current,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+37,A028335,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,90,65.620,Never,Current,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+38,A010912,"98613 Acute myeloid leukemia, NOS",84,30.620,Never,Never,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,Black or African American,Non-Spanish; Non-Hispanic,Yes,Dead
+39,A039968,"98113 B lymphoblastic leukemia/lymphoma, NOS",84,54.700,Never,Never,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,Yes,Alive
+40,A040100,"98013 Acute leukemia, NOS",87,73.270,Former/Ever,Never,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+41,A030987,"98613 Acute myeloid leukemia, NOS",29,65.600,Former/Ever,Never,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+42,A030990,"98613 Acute myeloid leukemia, NOS",41,51.150,Current,Never,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+43,A030991,"98613 Acute myeloid leukemia, NOS",32,70.240,Never,Current,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+44,A030992,"98613 Acute myeloid leukemia, NOS",56,66.700,Former/Ever,Never,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+45,A030997,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,95,53.750,Never,Current,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+46,A040113,"98613 Acute myeloid leukemia, NOS",27,77.670,Former/Ever,Current,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+47,A008274,"98613 Acute myeloid leukemia, NOS",23,35.700,Former/Ever,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,Yes,Dead
+48,A008282,"98613 Acute myeloid leukemia, NOS",25,59.990,Current,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+49,A008286,"98613 Acute myeloid leukemia, NOS",32,67.040,Former/Ever,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,Yes,Dead
+50,A033917,"98613 Acute myeloid leukemia, NOS",25,71.660,Never,Never,No,No,No,No,Yes,Yes,No,Yes,Yes,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+51,A032147,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,83,55.020,Never,Never,Yes,No,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+52,A032154,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,92,69.050,Never,Current,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+53,A008280,"98613 Acute myeloid leukemia, NOS",95,42.150,Former/Ever,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+54,A008281,"98353 Precursor cell lymphoblastic leukemia, NOS",92,31.590,Never,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+55,A006746,"98613 Acute myeloid leukemia, NOS",24,79.900,Former/Ever,Current,Yes,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+56,A006747,"98613 Acute myeloid leukemia, NOS",82,40.380,Former/Ever,Never,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+57,A030212,"98113 B lymphoblastic leukemia/lymphoma, NOS",82,71.700,Former/Ever,Never,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Female,Black or African American,Non-Spanish; Non-Hispanic,No,Alive
+58,A030210,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,60,75.270,Former/Ever,Current,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+59,A008283,"98353 Precursor cell lymphoblastic leukemia, NOS",78,31.930,Never,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+60,A008287,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,95,69.550,Never,Current,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,No,No,Yes,Female,Black or African American,Non-Spanish; Non-Hispanic,No,Alive
+61,A008289,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,85,56.980,Never,Never,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+62,A049247,"98613 Acute myeloid leukemia, NOS",62,79.930,Former/Ever,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+63,A008278,"98613 Acute myeloid leukemia, NOS",37,68.020,Never,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+64,A008279,"98613 Acute myeloid leukemia, NOS",77,56.830,Never,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+65,A029215,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,79,36.680,Never,Current,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+66,A030982,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,93,72.100,Former/Ever,Never,No,No,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+67,A032139,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,63,73.180,Never,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+68,A030985,"98613 Acute myeloid leukemia, NOS",65,69.270,Never,Never,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+69,A030989,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,96,64.720,Never,Never,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+70,A030993,"98613 Acute myeloid leukemia, NOS",87,84.290,Never,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+71,A032142,"98633 Chronic myeloid leukemia, NOS",51,49.650,Current,Never,Yes,No,No,No,No,No,Yes,Yes,No,Yes,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+72,A039975,"98013 Acute leukemia, NOS",69,41.220,Former/Ever,Former/Ever,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+73,A039981,"98013 Acute leukemia, NOS",64,79.320,Never,Never,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+74,A006745,"98613 Acute myeloid leukemia, NOS",83,76.870,Never,Current,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+75,A040111,"98613 Acute myeloid leukemia, NOS",42,74.190,Never,Former/Ever,Yes,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+76,A030996,"98613 Acute myeloid leukemia, NOS",90,75.730,Never,Never,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+77,A006690,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,70,59.670,Never,Never,No,No,No,No,No,No,No,Yes,No,Yes,No,Yes,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+78,A010858,98313 T-cell large granular lymphocytic leukemia,96,53.140,Former/Ever,Never,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+79,A028333,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,98,83.130,Never,Current,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Alive
+80,A039953,"98613 Acute myeloid leukemia, NOS",25,51.680,Former/Ever,Never,Yes,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,Yes,Dead
+81,A040098,"98633 Chronic myeloid leukemia, NOS",55,67.820,Former/Ever,Current,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+82,A028337,"98613 Acute myeloid leukemia, NOS",63,67.300,Former/Ever,Current,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+83,A049229,"98613 Acute myeloid leukemia, NOS",57,58.620,Former/Ever,Former/Ever,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+84,A033915,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,58,24.790,Never,Never,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,Black or African American,Non-Spanish; Non-Hispanic,No,Dead
+85,A030983,"98613 Acute myeloid leukemia, NOS",74,70.440,Never,Never,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+86,A030986,"98613 Acute myeloid leukemia, NOS",75,75.900,Former/Ever,Never,No,No,No,No,Yes,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+87,A039961,"98003 Leukemia, NOS",60,35.230,Never,Never,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,Some other race,Non-Spanish; Non-Hispanic,No,Alive
+88,A039952,"98613 Acute myeloid leukemia, NOS",45,49.420,Former/Ever,Former/Ever,No,No,No,No,Yes,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,Yes,Dead
+89,A040112,"98343 Prolymphocytic leukemia, T-cell type",94,67.520,Never,Former/Ever,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+90,A008273,"98613 Acute myeloid leukemia, NOS",51,54.140,Current,Current,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+91,A008277,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,90,63.700,Former/Ever,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+92,A029214,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,76,79.720,Former/Ever,Current,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+93,A032143,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,86,61.850,Never,Never,Yes,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Male,Black or African American,Non-Spanish; Non-Hispanic,No,Alive
+94,A010844,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,90,72.960,Never,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Alive
+95,A010853,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,97,86.030,Former/Ever,Never,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+96,A049244,"98113 B lymphoblastic leukemia/lymphoma, NOS",39,58.410,Never,Former/Ever,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,Yes,Dead
+97,A049245,"98613 Acute myeloid leukemia, NOS",30,27.810,Never,Current,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,White,Non-Spanish; Non-Hispanic,No,Dead
+98,A039962,"98613 Acute myeloid leukemia, NOS",37,67.540,Former/Ever,Never,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,White,Non-Spanish; Non-Hispanic,No,Dead
+99,A040093,98233 Chronic lymphocytic leukemia/small lymphocytic lymphoma,34,65.380,Current,Never,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Female,Black or African American,Non-Spanish; Non-Hispanic,No,Alive
+100,A040096,"98633 Chronic myeloid leukemia, NOS",71,21.850,Never,Never,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Male,"Other Asian, including Asian, NOS and Oriental, NOS",Non-Spanish; Non-Hispanic,No,Alive

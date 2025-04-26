@@ -1,0 +1,196 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+list
+
+data <- read.csv("results.csv")
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+```{r}
+test = read.table("data/leukemia/molecular/rnaseq/genes/FT-SA158752R.genes.results")
+
+test = read.table("data/leukemia/molecular/rnaseq/genes/FT-SA158752R.genes.results", header = TRUE)
+```
+```{r}
+test = test %>%
+  select(gene_symbol,TPM)
+```
+```{r}
+test2 = transpose(test)
+
+#Step 1: List all files in directory
+files <- list.files(path = "data/leukemia/molecular/rnaseq/genes", pattern = "\\.genes\\.results$", full.names = TRUE)
+# Step 2: Read each file, select gene name + TPM, and rename TPM to sample ID
+read_tpm <- function(file) {
+  sample_id <- tools::file_path_sans_ext(basename(file))  
+  # Extract file name without extension
+  df <- read_tsv(file, show_col_types = FALSE) %>%
+    select(gene_id = gene_id, !!sample_id := TPM)
+  return(df)
+}
+# Step 3: Load and merge all by gene
+merged_tpm <- reduce(lapply(files, read_tpm), full_join, by = "gene_id")
+
+ List all TSV files in the folder
+> files <- list.files(pattern = "\\.tsv$")
+> 
+> # Read and trim each file
+> all_data <- lapply(files, function(file) {
++   df <- read_tsv(file)
++ 
++   # Standardize column names
++   colnames(df) <- tolower(gsub(" ", "_", colnames(df)))
++ 
++   # Select gene symbol and tpm/trm columns
++   df_selected <- df %>%
++     select(matches("gene.*symbol|gene.*name"), matches("tpm|trm"))
++ 
++   df_selected$file <- file  # optional: add source file name
++   return(df_selected)
++ })
+> 
+> # Combine all into one dataframe
+> combined_data <- bind_rows(all_data)
+> 
+> # Preview the result
+> head(combined_data)
+> head(merged_tpm)
+ #Step 4: Filter out >100 NAs
+filtered_merged <- merged_tpm %>%
++     filter(rowSums(is.na(across(-gene_id))) <= 100)
+> head(filtered_merged)
+
+library(ggplot2)
+> library(tibble)
+
+expr_matrix <- filtered_merged %>%
++     column_to_rownames("gene_id") %>%
++     t() %>%
++     as.data.frame()
+
+# Transpose: genes as rows → samples as rows
+> expr_matrix <- filtered_merged %>%
++     column_to_rownames("gene_id") %>%
++     t() %>%
++     as.data.frame()
+> 
+> # Remove genes (columns) with zero variance
+> expr_matrix <- expr_matrix[, apply(expr_matrix, 2, function(x) sd(x, na.rm = TRUE) > 0)]
+> 
+> # Replace NAs with 0 in the entire expression matrix
+> expr_matrix[is.na(expr_matrix)] <- 0
+> 
+> # Double-check if there are still NAs
+> sum(is.na(expr_matrix))  # Should return 0 now
+[1] 0
+> 
+> # Now run PCA
+> pca_result <- prcomp(expr_matrix, scale. = TRUE)
+> 
+> # Create a data frame with PCA results for plotting
+> pca_df <- as.data.frame(pca_result$x)
+> pca_df$sample <- rownames(pca_df)  # Add sample names
+> 
+> # Optional: Cluster the samples using k-means (adjust number of clusters if needed)
+> set.seed(42)
+> k_clusters <- 3  # You can change this number if needed
+> pca_df$cluster <- as.factor(kmeans(pca_df[, 1:2], centers = k_clusters)$cluster)
+> 
+> # Plot the PCA results
+> ggplot(pca_df, aes(x = PC1, y = PC2, color = cluster, label = sample)) +
++     geom_point(size = 3, alpha = 0.8) +
++     geom_text(vjust = 1.5, hjust = 1.1, size = 2.5) +
++     labs(title = "PCA of RNA-seq Samples", x = "PC1", y = "PC2") +
++     theme_minimal() +
++     theme(legend.title = element_blank())
+> 
+> ggplot(pca_df, aes(x = PC1, y = PC2)) +
++     geom_point(size = 3, alpha = 0.8) +
++     labs(title = "PCA of Patients by Gene Expression",
++          x = paste0("PC1 (", round(100 * summary(pca_result)$importance[2, 1], 1), "%)"),
++          y = paste0("PC2 (", round(100 * summary(pca_result)$importance[2, 2], 1), "%)")) +
+  theme_minimal()
+Create a data frame with PCA results
+> pca_df <- as.data.frame(pca_result$x)
+> pca_df$sample <- rownames(pca_df)
+> 
+> # Optional: K-means clustering
+> set.seed(42)
+> k_clusters <- 3
+> pca_df$cluster <- as.factor(kmeans(pca_df[, 1:2], centers = k_clusters)$cluster)
+> 
+> # Calculate % variance explained for PC1 and PC2
+> pc1_var <- round(100 * summary(pca_result)$importance[2, 1], 1)
+> pc2_var <- round(100 * summary(pca_result)$importance[2, 2], 1)
+> 
+> # Plot with dynamic axis labels
+> ggplot(pca_df, aes(x = PC1, y = PC2, color = cluster, label = sample)) +
++     geom_point(size = 3, alpha = 0.8) +
++     geom_text(vjust = 1.5, hjust = 1.1, size = 2.5) +
++     labs(
++         title = "PCA of RNA-seq Samples",
++         x = paste0("PC1 (", pc1_var, "%)"),
++         y = paste0("PC2 (", pc2_var, "%)")
++     ) +
++     theme_minimal() +
++     theme(legend.title = element_blank())
+
+#Adding Avatarid
+rename_vector <- setNames(id_map$ORIENAvatarKey, id_map$RNASeq)
+> gene_ids <- filtered_merged$gene_id
+> expr_only <- filtered_merged[, -1]
+> colnames(expr_only) <- rename_vector[colnames(expr_only)]
+> filtered_avatar <- cbind(gene_id = gene_ids, expr_only)
+> list(filtered_avatar)
+ename_map <- setNames(id_map$ORIENAvatarKey, id_map$RNASeq)
+> filtered_merged <- filtered_merged %>%
++     rename_with(~ recode(., !!!rename_map))
+> gene_ids <- filtered_merged$gene_id
+> expr_only <- filtered_merged[, -1]
+> colnames(expr_only) <- rename_vector[colnames(expr_only)]
+> filtered_avatar <- cbind(gene_id = gene_ids, expr_only)
+
+```
+
+
+```{r}
+# Step 4: Filter out genes with >100 NAs across all samples
+filtered_merged <- merged_tpm %>%
+  filter(rowSums(is.na(across(-gene_id))) <= 100)
+head(filtered_merged)
+```
+
+
+```{r}
+library(ggplot2)
+library(tibble)
+
+# Step 1: Prepare the matrix for PCA (transpose so samples are rows)
+expr_matrix <- filtered_merged %>%
+  column_to_rownames("gene_id") %>%
+  t() %>%
+  as.data.frame()
+
+# Step 2: Run PCA
+pca_result <- prcomp(expr_matrix, scale. = TRUE)
+
+# Step 3: Create a PCA dataframe for plotting
+pca_df <- as.data.frame(pca_result$x)
+pca_df$sample <- rownames(pca_df)  # Add sample names
+
+# Optional: k-means clustering to color points by cluster
+set.seed(42)
+k_clusters <- 3  # Adjust number of clusters if needed
+pca_df$cluster <- as.factor(kmeans(pca_df[, 1:2], centers = k_clusters)$cluster)
+
+# Step 4: Plot PCA
+ggplot(pca_df, aes(x = PC1, y = PC2, color = cluster, label = sample)) +
+  geom_point(size = 3, alpha = 0.8) +
+  geom_text(vjust = 1.5, hjust = 1.1, size = 2.5) +
+  labs(title = "PCA of RNA-seq Samples (filtered_merged)", x = "PC1", y = "PC2") +
+  theme_minimal()

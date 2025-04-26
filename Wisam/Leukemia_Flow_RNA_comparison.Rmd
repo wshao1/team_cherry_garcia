@@ -1,0 +1,196 @@
+---
+title: "Clinical_Cleanup"
+author: "Wisam"
+date: "2025-04-25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "/sfs/ceph/standard/BDShackathon")
+library(tidyverse)
+library(biomaRt)
+library(cluster)
+```
+
+
+```{r}
+# load tumor Data
+flow_data = read.csv("teams/cherry_garcia/cleaned_clinical_data_csvs/tumorMarkerFlowPanel.csv")
+expected_count_data = read.csv("teams/cherry_garcia/Wisam/cleaned_rna_expected_count.csv")
+gene_info = read.csv("teams/cherry_garcia/Wisam/gene_info.csv")
+flow_gene_list = read.csv("teams/cherry_garcia/Wisam/Leukemia_Flow_Markers_Ensembl.csv")
+age_mapping = read.csv("teams/cherry_garcia/age_mapping.csv")
+```
+
+```{r}
+#Rename markers in gene list to match colnames for later 
+flow_gene_list$og_Marker = flow_gene_list$Marker
+flow_gene_list$Marker = colnames(flow_data[,3:ncol(flow_data)])
+```
+
+```{r}
+flow_expected_count = expected_count_data %>% 
+  mutate(gene_id_truncate = str_remove(gene_id, "\\..*")) %>%
+  relocate(gene_id_truncate, .after = gene_id) %>%
+  dplyr::select(-1) %>%
+  subset(gene_id_truncate %in% flow_gene_list$Ensembl.Gene.ID) %>%
+  rename(Ensembl.Gene.ID = gene_id_truncate) %>%
+  left_join(flow_gene_list, by = "Ensembl.Gene.ID") %>%
+  relocate(Marker, Gene.Symbol, .before = everything()) %>%
+  distinct(Ensembl.Gene.ID, .keep_all = TRUE)
+
+write.csv(flow_expected_count, "teams/cherry_garcia/Wisam/RNAseq_flow_subset.csv")
+```
+
+```{r}
+#Check time of sample for RNA vs Flow
+duplicate_flow <- flow_data %>%
+  group_by(AvatarKey) %>%
+  filter(n() > 1) %>%
+  ungroup()
+
+unique_flow <-flow_data %>%
+  group_by(AvatarKey) %>%
+  filter(n() == 1) %>%
+  ungroup()
+
+dupl_AvatarKey = unique(duplicate_flow$AvatarKey)
+uniq_AvatarKey = unique(unique_flow$AvatarKey)
+
+# Get the age of RNA sample collection
+dupl_RNA_age = age_mapping %>%
+  subset(AvatarKey %in% dupl_AvatarKey)
+
+uniq_RNA_age = age_mapping %>%
+  subset(AvatarKey %in% uniq_AvatarKey)
+
+# Find the time point that minimizes difference in age
+
+duplicate_flow <- duplicate_flow %>%
+  left_join(age_mapping, by = "AvatarKey")%>%  # bring in ReferenceTime
+  mutate(TimeSinceRNA = as.numeric(Age.At.Specimen.Collection) - as.numeric(AgeAtTumorMarkerTest)) %>%
+  group_by(AvatarKey) %>% 
+  filter(abs(TimeSinceRNA) == min(abs(TimeSinceRNA), na.rm = TRUE)) %>%
+  relocate(Age.At.Specimen.Collection, TimeSinceRNA, .after = AgeAtTumorMarkerTest) %>%
+  ungroup() 
+
+duplicate_flow <- duplicate_flow[-37,] #Remove duplicate row for patient A039959
+
+unique_flow <- unique_flow %>%
+  left_join(age_mapping, by = "AvatarKey")%>%  # bring in ReferenceTime
+  mutate(TimeSinceRNA = as.numeric(Age.At.Specimen.Collection) - as.numeric(AgeAtTumorMarkerTest)) %>%
+  group_by(AvatarKey) %>% 
+  filter(abs(TimeSinceRNA) == min(abs(TimeSinceRNA), na.rm = TRUE)) %>%
+  relocate(Age.At.Specimen.Collection, TimeSinceRNA, .after = AgeAtTumorMarkerTest) %>%
+  ungroup() 
+
+flow_data = rbind(unique_flow, duplicate_flow)
+```
+
+
+
+
+
+```{r}
+flow_summary <- flow_data[,c(-1,-2,-3,-4)] %>%
+  pivot_longer(cols = everything(), names_to = "Column", values_to = "Value") %>%
+  mutate(Category = case_when(
+    is.na(Value) ~ "NA",
+    Value == "Negative" ~ "Negative",
+    Value == "Positive" ~ "Positive",
+    TRUE ~ 'Other'
+  )) %>%
+  count(Column, Category)
+
+na_order <- flow_summary %>%
+  filter(Category == "NA") %>%
+  arrange(n) %>%
+  pull(Column)
+
+ggplot(flow_summary, aes(x = factor(Column, na_order), y = n, fill = Category)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Marker", y = "Patient Count", title = "Breakdown of NA, Negative, and Positive by Marker")+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+```
+
+```{r}
+
+#Take out irrelevant columns 
+
+df <- flow_expected_count %>% 
+  dplyr::select(c(-2,-3,-4)) %>%
+  dplyr::select(-og_Marker)
+
+# Pivot longer
+df_long <- df %>%
+  pivot_longer(cols = -Marker, names_to = "AvatarKey", values_to = "Expression") # %>%
+  #pivot_wider(names_from = Marker, values_from = Expression)
+
+#Make histograms of expected_count
+ggplot(df_long, aes(x = log2(Expression)))+
+  geom_histogram()+
+  facet_wrap(~factor(Marker,na_order))+
+  ggtitle("Expected Count Histograms")
+
+ggplot(df_long, aes(x = log2(Expression)))+
+  geom_density()+
+  facet_wrap(~factor(Marker,na_order))+
+  ggtitle("Expected Count Density")
+
+```
+```{r}
+# label patients by positive, negative, or NA status per gene
+# First pivot flow_data into a long format too
+# First, select only the AvatarKey (Patient ID) and marker columns
+flow_status = flow_data %>%
+  dplyr::select(AvatarKey, all_of(unique(df_long$Marker))) %>%
+  pivot_longer(
+    cols = -AvatarKey,
+    names_to = "Marker",
+    values_to = "Status"
+  )
+
+# Now, left join into df_long
+df_long_with_status = df_long %>%
+  left_join(flow_status, by = c("AvatarKey", "Marker"))
+
+ggplot(df_long_with_status, aes(x = log2(Expression), fill = Status, color = Status))+
+  geom_density(alpha = 0.5)+
+  facet_wrap(~factor(Marker,na_order))+
+  ggtitle("Expected Count Density (with NAs)")
+
+
+no_NA_long_status = df_long_with_status %>%
+  filter(!is.na(Status))
+
+ggplot(no_NA_long_status, aes(x = log2(Expression), fill = Status, color = Status))+
+  geom_density(alpha = 0.5)+
+  facet_wrap(~factor(Marker,na_order))+
+  ggtitle("Expected Count Density")
+
+
+```
+```{r}
+flow_status_numeric = flow_data %>%
+  mutate(across(5:ncol(.), ~ case_when(
+    . == "Positive" ~ 1,
+    . == "Negative" ~ -1,
+    TRUE ~ 0  # NA or other
+  )))
+
+# 2. Compute Gower distance (good for mixed data types, works fine here)
+diss_matrix = daisy(flow_status_numeric, metric = "gower")
+
+# 3. Perform clustering
+cluster_result = hclust(diss_matrix, method = "ward.D2")
+
+# 4. Plot dendrogram
+plot(cluster_result, labels = FALSE, main = "Hierarchical Clustering of Patients")
+
+# Optional: cut tree into k groups
+k = 3  # choose number of clusters
+cluster_groups = cutree(cluster_result, k = k)
+```
+
+
