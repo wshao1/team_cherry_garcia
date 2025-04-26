@@ -11,6 +11,7 @@ knitr::opts_knit$set(root.dir = "/sfs/ceph/standard/BDShackathon")
 library(tidyverse)
 library(biomaRt)
 library(cluster)
+library(pheatmap)
 ```
 
 
@@ -86,6 +87,8 @@ unique_flow <- unique_flow %>%
   ungroup() 
 
 flow_data = rbind(unique_flow, duplicate_flow)
+
+write.csv(flow_data, "teams/cherry_garcia/cleaned_clinical_data_csvs/flow_data_unique_patients.csv")
 ```
 
 
@@ -179,8 +182,14 @@ flow_status_numeric = flow_data %>%
     TRUE ~ 0  # NA or other
   )))
 
+flow_status_matrix = flow_status_numeric[,-2:-4]
+rownames(flow_status_matrix) = flow_status_matrix[[1]]
+flow_status_matrix = flow_status_matrix[,-1]
+
+
+
 # 2. Compute Gower distance (good for mixed data types, works fine here)
-diss_matrix = daisy(flow_status_numeric, metric = "gower")
+diss_matrix = daisy(flow_status_numeric[,c(-4:-1)], metric = "gower")
 
 # 3. Perform clustering
 cluster_result = hclust(diss_matrix, method = "ward.D2")
@@ -193,4 +202,109 @@ k = 3  # choose number of clusters
 cluster_groups = cutree(cluster_result, k = k)
 ```
 
+```{r}
+# Plot heatmap using categorical data across patients
+flow_status_numeric = flow_data %>%
+  mutate(across(5:ncol(.), ~ case_when(
+    . == "Positive" ~ 1,
+    . == "Negative" ~ -1,
+    TRUE ~ 0  # NA or other
+  )))
+
+flow_status_matrix = flow_status_numeric[,-2:-4]
+rownames(flow_status_matrix) = flow_status_matrix[[1]]
+flow_status_matrix = flow_status_matrix[,-1]
+
+
+pheatmap(flow_status_matrix, 
+         color = c("blue", "grey", "red"), 
+         breaks = c(-1.5, -0.5, 0.5, 1.5), # important: ensure correct separation of -1, 0, 1
+         cluster_rows = TRUE, 
+         cluster_cols = TRUE,
+         legend_breaks = c(-1, 0, 1),
+         legend_labels = c("-1", "0", "1"),
+         main = "Patient Marker Clustergram")
+```
+
+
+```{r}
+#Filling in NAs with positive negative based on thresholds from Expected Counts 
+
+# 1) Set threshold for each marker when possible
+percentile_threshold = 0.05
+
+# 2) Subset the positive by marker
+positive_cutoff= df_long_with_status %>%
+  group_by(Marker, Status) %>%
+  summarize(Expression_Cutoff = quantile(Expression, probs = percentile_threshold, na.rm = TRUE),
+    .groups = "drop") %>%
+  filter(Status == "Positive")
+
+rownames(positive_cutoff) = positive_cutoff$Marker
+
+
+#Take the patients that do not have marker status and replace with positive or negative based on expression
+
+flow_status_numeric_update = as.data.frame(flow_status_numeric)
+rownames(flow_status_numeric_update) = flow_status_numeric_update$AvatarKey
+
+rownames(flow_expected_count) = flow_expected_count$Marker
+threshold_expected_count = flow_expected_count[,-1:-4] %>%
+  dplyr::select(-ncol(.))
+
+
+# for (marker in positive_cutoff$Marker){
+#   for (patient in flow_status_numeric_update$AvatarKey){
+#     if(flow_status_numeric_update[patient, marker] == 0){
+#       flow_status_numeric_update[patient,marker] = case_when(
+#         is.na(threshold_expected_count) ~ 0,
+#         threshold_expected_count[marker, patient] >=  positive_cutoff[marker, "Expression_Cutoff"] ~ 1,
+#         TRUE ~ -1
+#       )
+#     }
+#   }
+# } 
+  
+for (marker in positive_cutoff$Marker) {
+  for (patient in flow_status_numeric_update$AvatarKey) {
+    
+    if (flow_status_numeric_update[patient, marker] == 0) {
+      
+      expr_value <- threshold_expected_count[marker, patient]
+      cutoff_value <- positive_cutoff[positive_cutoff$Marker == marker, "Expression_Cutoff"]
+      
+      # No case_when, just simple ifelse
+      if (is.na(expr_value)) {
+        flow_status_numeric_update[patient, marker] <- 0
+      } else if (expr_value >= cutoff_value) {
+        flow_status_numeric_update[patient, marker] <- 1
+      } else {
+        flow_status_numeric_update[patient, marker] <- -1
+      }
+      
+    }
+  }
+}
+
+write.csv(flow_status_numeric_update, "teams/cherry_garcia/cleaned_clinical_data_csvs/RNA_filled_flow.csv")
+```
+
+
+```{r}
+# Plot heatmap using categorical data across patients
+
+flow_status_matrix = flow_status_numeric_update[,-2:-4]
+rownames(flow_status_matrix) = flow_status_matrix[[1]]
+flow_status_matrix = flow_status_matrix[,-1]
+
+
+pheatmap(flow_status_matrix, 
+         color = c("blue", "grey", "red"), 
+         breaks = c(-1.5, -0.5, 0.5, 1.5), # important: ensure correct separation of -1, 0, 1
+         cluster_rows = TRUE, 
+         cluster_cols = TRUE,
+         legend_breaks = c(-1, 0, 1),
+         legend_labels = c("-1", "0", "1"),
+         main = "Patient Marker Clustergram")
+```
 
